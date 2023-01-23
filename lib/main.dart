@@ -28,7 +28,7 @@ class FirstScreen extends StatelessWidget {
           child: ElevatedButton.icon(
             onPressed: () {
               Clipboard.setData(
-                const ClipboardData(text: 'somte text'),
+                const ClipboardData(text: 'some text'),
               );
             },
             icon: const Icon(Icons.copy),
